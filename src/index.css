@@ -1,3 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital@1&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: Bubble;
+  src: url("./fonts/Bubble.ttf") format("opentype");
+}
+
+@layer utilities {
+  .glowing-font {
+    color: #bcb7d3;
+    text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #fff,
+      0 0 82px #fff, 0 0 92px #fff, 0 0 102px #edc2d5, 0 0 151px #edc2d5;
+  }
+}
