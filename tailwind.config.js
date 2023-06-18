@@ -11,7 +11,8 @@ module.exports = {
         ltPink: '#fbf2f8',
         mauve: '#bd969d',
         purple: '#bcb7d3',
-        dkMauve: '#907887'
+        dkMauve: '#907887',
+        dark: '#88636f'
       },
       fontFamily: {
         primary: "Bubble",
