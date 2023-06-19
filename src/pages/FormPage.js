@@ -11,7 +11,7 @@ function FormPage() {
       >
         <div className="text-center p-5">
           <h1 className="font-primary text-6xl md:text-7xl lg:text-8xl glowing-font">
-            MATTIE TURNS 27
+            pls fill out :)
           </h1>
         </div>
         <RSVPForm />
@@ -20,7 +20,7 @@ function FormPage() {
       style={{ backgroundImage: `url(${pearlVBg})` }}>
         <div className="text-center p-5">
           <h1 className="font-primary text-6xl md:text-7xl lg:text-8xl glowing-font">
-            MATTIE TURNS 27
+            pls fill out :)
           </h1>
         </div>
         <RSVPForm />

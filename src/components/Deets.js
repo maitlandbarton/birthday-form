@@ -6,7 +6,7 @@ function Deets() {
       <div className="py-5 text-center text-ltPink text-xl">
         <h2 className="font-primary text-3xl glowing-font-2">When?</h2>
         <p>Sunday, 30 July</p>
-        <p>Meet at: <span className="underline">11:45am !!</span></p>
+        <p>Meet at: <span className="underline decoration-wavy decoration-aqua">11:45am !!</span></p>
         <p><span>Depart at: </span>12:00 sharp</p>
         <p>Return at: 20:00</p>
       </div>
