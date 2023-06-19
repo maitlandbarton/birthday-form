@@ -20,11 +20,11 @@ function AboutPage() {
         </div>
         <div id="container" className="flex justify-center items-center">
           <div id="image1" className="flex flex-col p-10">
-            <ImageBlock image={BoatImage} height={64} />
+            <ImageBlock image={BoatImage} height={"16rem"} />
           </div>
           <Deets />
           <div id="image2" className="flex flex-col p-10">
-            <ImageBlock image={MyPhoto} height={96} />
+            <ImageBlock image={MyPhoto} height={"24rem"} />
           </div>
         </div>
       </div>
