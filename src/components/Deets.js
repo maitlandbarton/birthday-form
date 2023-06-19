@@ -23,6 +23,7 @@ function Deets() {
         <p className="text-xl">33€ per person</p>
         <p className="text-sm">(we'll have a top deck & a slide so it's worth it 😛)</p>
         <p>PayPal/N26: maitlandbarton@gmail.com</p>
+        <p>OR bank transfer</p>
         <p>IBAN: DE24 1001 1001 2629 9937 50</p>
       </div>
 

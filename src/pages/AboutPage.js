@@ -14,9 +14,14 @@ function AboutPage() {
         style={{ backgroundImage: `url(${pearlBg})` }}
       >
         <div className="text-center p-5">
-          <h1 className="font-primary text-6xl md:text-7xl lg:text-8xl glowing-font">
+          <h1 className="font-primary text-6xl hidden md:block md:text-7xl lg:text-8xl glowing-font">
             mattie turns 27
           </h1>
+          <div className="sm:block md:hidden">
+            <h1 className="font-primary text-6xl">mattie</h1>
+            <br/>
+            <h1 className="font-primary text-6xl">turns 27</h1>
+          </div>
         </div>
         <div id="container" className="flex justify-center items-center">
           <div id="image1" className="flex flex-col p-10">
