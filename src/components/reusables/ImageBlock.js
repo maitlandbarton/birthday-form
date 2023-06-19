@@ -1,7 +1,8 @@
-function ImageBlock () {
+
+function ImageBlock ({image}) {
     return (
-        <div>
-            <h1>this is the image block!</h1>
+        <div className="bg-purple ring-4 ring-aqua rounded-md h-64 my-5">
+            <img src={image} className="rounded-md w-full h-full object-cover"></img>
         </div>
     )
 }

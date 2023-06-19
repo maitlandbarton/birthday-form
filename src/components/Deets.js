@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function Deets() {
   return (
-    <div className="w-3/4 lg:w-1/2 mx-auto p-5 rounded-md bg-purple ring-4 ring-aqua shadow-xl shadow-ltPink flex flex-col items-center overflow-scroll">
+    <div className="border border-black w-3/4 lg:w-1/2 mx-auto p-5 rounded-md bg-purple ring-4 ring-aqua shadow-xl shadow-ltPink flex flex-col items-center overflow-scroll">
       <div className="py-5 text-center text-ltPink text-xl">
         <h2 className="font-primary text-3xl glowing-font-2">When?</h2>
         <p>Sunday, 30 July</p>
