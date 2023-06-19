@@ -57,7 +57,8 @@ function RSVPForm() {
           </div>
         </div>
 
-        <div id="form-button" className="w-full flex items-center flex-col mt-2">
+        <div id="form-button" className="w-full flex items-center flex-col mt-2
+        ">
           <button className="bg-aqua shadow-md shadow-white hover:bg-ltPink text-xl text-purple hover:text-rose hover:shadow-md hover:shadow-rose px-4 py-2 rounded-lg">
             <input type="submit" value="Submit" />
           </button>

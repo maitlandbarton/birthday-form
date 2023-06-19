@@ -1,17 +1,30 @@
 import RSVPForm from "../components/RSVPForm";
-import waterBg from "../images/pearl.jpeg";
+import pearlBg from "../images/pearl.jpeg";
+import pearlVBg from "../images/pearl-v.jpeg"
 
 function HomePage() {
   return (
-    <div className="bg-repeat-x h-screen"
-      style={{ backgroundImage: `url(${waterBg})` }}
-    >
-      <div className="text-center p-5">
-        <h1 className="font-primary text-6xl md:text-7xl lg:text-8xl glowing-font">
-          MATTIE TURNS 27
-        </h1>
+    <div>
+      <div
+        className="hidden h-screen lg:block bg-cover"
+        style={{ backgroundImage: `url(${pearlBg})` }}
+      >
+        <div className="text-center p-5">
+          <h1 className="font-primary text-6xl md:text-7xl lg:text-8xl glowing-font">
+            MATTIE TURNS 27
+          </h1>
+        </div>
+        <RSVPForm />
       </div>
-      <RSVPForm />
+      <div className="sm:block lg:hidden bg-cover h-screen"
+      style={{ backgroundImage: `url(${pearlVBg})` }}>
+        <div className="text-center p-5">
+          <h1 className="font-primary text-6xl md:text-7xl lg:text-8xl glowing-font">
+            MATTIE TURNS 27
+          </h1>
+        </div>
+        <RSVPForm />
+      </div>
     </div>
   );
 }
