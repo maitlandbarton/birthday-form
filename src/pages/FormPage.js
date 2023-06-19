@@ -2,7 +2,7 @@ import RSVPForm from "../components/RSVPForm";
 import pearlBg from "../images/pearl.jpeg";
 import pearlVBg from "../images/pearl-v.jpeg"
 
-function HomePage() {
+function FormPage() {
   return (
     <div>
       <div
@@ -29,4 +29,4 @@ function HomePage() {
   );
 }
 
-export default HomePage;
+export default FormPage;

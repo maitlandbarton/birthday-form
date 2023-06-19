@@ -3,6 +3,7 @@ import pearlBg from "../images/pearl.jpeg";
 import pearlVBg from "../images/pearl-v.jpeg";
 import ImageBlock from "../components/reusables/ImageBlock";
 import BoatImage from "../images/boat1.jpg"
+import MyPhoto from "../images/me.JPG"
 
 function AboutPage() {
   return (
@@ -17,12 +18,12 @@ function AboutPage() {
           </h1>
         </div>
         <div className="flex justify-center items-center">
-          <div className="flex flex-col border p-10">
-            <ImageBlock image={BoatImage} />
+          <div className="flex flex-col p-10">
+            <ImageBlock image={BoatImage} height={64} />
           </div>
           <Deets />
-          <div className="flex flex-col border p-10">
-            <ImageBlock />
+          <div className="flex flex-col p-10">
+            <ImageBlock image={MyPhoto} height={96}/>
           </div>
         </div>
       </div>

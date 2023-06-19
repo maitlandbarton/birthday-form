@@ -4,7 +4,7 @@ function RSVPForm() {
   return (
     <div className="w-3/4 lg:w-1/2 mx-auto p-5 rounded-md bg-purple h-3/4 ring-4 ring-aqua shadow-xl shadow-ltPink flex flex-col items-center overflow-scroll">
       <div className="pb-2 text-dkMauve">
-        <Link to="/about">
+        <Link to="/">
         <p className="hover:text-ltPink">Party deets here!</p>
         </Link>
       </div>
