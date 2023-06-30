@@ -9,7 +9,7 @@ function RSVPForm() {
         </Link>
       </div>
       <form className="my-auto">
-        <div id="form-item-1" className="px-5 pb-5 text-ltPink">
+        <div id="form-item-1" className="px-5 pb-5 text-ltPink text-center">
           <label className="pr-5 text-xl lg:text-3xl" for="name">
             Full Name:
           </label>
@@ -50,10 +50,10 @@ function RSVPForm() {
           <p className="text-lg lg:text-2xl">Do you have a cooler ?</p>
           <div className="pl-4 text-md lg:text-xl accent-aqua">
             <input type="radio" id="yesCooler" name="cooler" value="yes" />
-            <label for="yesCooler" className="px-3">Yes, I can bring it!</label>
+            <label for="yesCooler" className="pl-3">Yes, I can bring it!</label>
             <br />
             <input type="radio" id="noCooler" name="cooler" value="no" />
-            <label for="noCooler" className="px-3">No, but I can bring ice! 🧊</label>
+            <label for="noCooler" className="pl-3">No, but I can bring ice! 🧊</label>
           </div>
         </div>
 
