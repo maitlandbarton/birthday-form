@@ -41,13 +41,13 @@ function Deets() {
 
       <div className="py-5 text-center text-ltPink text-lg">
         <h2 className="font-primary text-3xl glowing-font-2">How much?</h2>
-        <p className="text-xl">33€ per person</p>
+        <p className="text-xl">30€ per person</p>
         <p className="text-sm text-mauve">
           (we'll have a top deck & a slide so it's worth it 😛)
         </p>
         <p>PayPal/N26: maitlandbarton@gmail.com</p>
-        <p>OR</p>
-        <p>IBAN: DE24 1001 1001 2629 9937 50</p>
+        <p>or IBAN:</p>
+        <p>DE24 1001 1001 2629 9937 50</p>
         <p className="text-sm text-mauve">*please send €€ by July 20 to save your spot*</p>
       </div>
 
