@@ -117,7 +117,7 @@ const RSVPForm = () => {
             </label>
             <br />
             <input type="radio" id="noCooler" name="cooler" value="no" />
-            <label htmlFor="noCooler" className="pl-3">
+            <label htmlFor="noCooler" name="cooler "className="pl-3">
               No, but I'll  bring ice! 🧊
             </label>
           </div>
